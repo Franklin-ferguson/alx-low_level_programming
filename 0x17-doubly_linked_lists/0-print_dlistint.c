@@ -1,11 +1,10 @@
 #include "lists.h"
 
-/*
- * print_dlistint - Prints a doubly linked list of integers
- * @dlistint_t : is the is the list to be printed
- *@h : is the pointer to the head of the list
- *Return : the number of elements in the list
- */
+/**
+ * print_dlistint - prints all the elements of a dlistint_t list.
+ * @h: pointer to the list.
+ * Return: number of nodes.
+ **/
 
 size_t print_dlistint(const dlistint_t *h)
 {
